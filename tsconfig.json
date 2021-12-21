@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+       "outDir": "./dist",
+       "module": "commonjs",
+       "rootDir": "./src",
+       "noEmit": false,
+       "emitDecoratorMetadata": true,
+       "target": "es5",
+       "lib": [
+         "dom",
+         "dom.iterable",
+         "esnext"
+       ],
+       "allowJs": true,
+       "skipLibCheck": true,
+       "esModuleInterop": true,
+       "allowSyntheticDefaultImports": true,
+       "strict": true,
+       "forceConsistentCasingInFileNames": true,
+       "noFallthroughCasesInSwitch": true,
+       "experimentalDecorators": true,
+       "moduleResolution": "node",
+       "resolveJsonModule": true,
+       "sourceMap": true
+    },
+    "include": [
+       "src/index.ts"
+    ]
+ }
