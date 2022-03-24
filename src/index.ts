@@ -44,6 +44,7 @@ async function process() {
                         }
                     }
                     row[9] = directions;
+                    console.log(directions);
                 }
 
             }
