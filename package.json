@@ -5,12 +5,18 @@
     "build": "tsc"
   },
   "devDependencies": {
+    "@types/pg": "^8.6.5",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
   },
   "dependencies": {
     "@types/xlsx": "^0.0.36",
     "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "i": "^0.3.7",
+    "npm": "^8.7.0",
+    "pg": "^8.7.3",
+    "remult": "^0.13.21",
     "xlsx": "^0.18.5"
   }
 }

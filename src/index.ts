@@ -3,8 +3,9 @@ import { getDataFromNoflim } from './getDataFromNoflim';
 
 import { Data } from './Interfaces';
 
-const wb = xlsx.readFile("C:\\Users\\Noam\\Downloads\\דוח חללים להנחת פתקי חיפוש - דוח לנעם 22032022.xlsx");
+const wb = xlsx.readFile("c:\\users\\noam\\Downloads\\הנחת פתקי חיפוש 2022 - הועבר לנועם 14042022 קישור לשני אתרים.xlsx");
 const s = xlsx.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], { header: 1 }) as [];
+
 
 
 async function process() {
